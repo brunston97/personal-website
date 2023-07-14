@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header-box {
+  width: 300px;
+  background-color: rgb(220, 220, 19);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Exo, Arial;
+  text-align: center;
+  color: black;
+}
+
+.construction-workers-image {
+  max-width: 300px;
+  position: absolute;
+  bottom: 0px;
+}
