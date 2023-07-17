@@ -6,11 +6,11 @@
 
 .header-box {
   width: 300px;
-  background-color: rgb(220, 220, 19);
+  background-color: rgb(235, 235, 13);
   padding: 10px;
   border-radius: 20px;
   margin-top: 10px;
-  border-style: solid;
+  border-style: dashed;
   border-width: 2px;
   border-color: black;
 }
