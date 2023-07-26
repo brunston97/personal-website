@@ -113,7 +113,13 @@
 
 @media(max-width: 415px) {
   .advice-container p {
-    margin-top: 10%;
+    margin-top: 20%;
+  }
+
+  .video-of-week-container h1,
+  .advice-container h1 {
+    font-size: 6vw;
+    white-space: nowrap;
   }
 }
 
