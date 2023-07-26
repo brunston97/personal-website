@@ -111,3 +111,9 @@
   }
 }
 
+@media(max-width: 415px) {
+  .advice-container p {
+    margin-top: 10%;
+  }
+}
+
