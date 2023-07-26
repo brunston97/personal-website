@@ -19,10 +19,19 @@
   margin-bottom: 20px;
 }
 
-.main-container h1 {
+.main-container h1,
+.video-of-week-container h1,
+.advice-container h1 {
   text-align: center;
   font-family: Exo, Arial;
   margin-bottom: 30px;
+}
+
+.advice-container p {
+  text-align: center;
+  font-family: Exo, Arial;
+  margin-top: 150px;
+  font-size: 20px;
 }
 
 .main-container h2 {
@@ -33,4 +42,46 @@
 .main-container p {
   text-align: left;
   font-family: Exo, Arial;
+}
+
+.secondary-container-row {
+  margin-top: 65px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.video-of-week-container {
+  width: 42%;
+  max-width: 560px;
+  background-color: rgb(224, 224, 85);
+  border-style: dashed;
+  border-radius: 20px;
+  border-width: 2px;
+  min-height: 400px;
+  padding: 20px 20px 0px 20px;
+  margin-right: 60px;
+  position: relative;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  max-width: 600px;
+  width: 80%;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+
+.advice-container {
+  min-width: 560px;
+  background-color: rgb(83, 235, 83);
+  border-style: dashed;
+  border-radius: 20px;
+  border-width: 2px;
+  min-height: 400px;
+  padding: 20px 20px 0px 20px;;
+  margin-left: 60px
 }
