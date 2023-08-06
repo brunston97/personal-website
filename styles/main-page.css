@@ -1,0 +1,57 @@
+.main-container,
+.video-of-week-container,
+.advice-container {
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 2px;
+  Background-color: rgb(238, 238, 238);
+}
+
+.main-container {
+  height: auto;
+  width: 70%;
+  max-width: 1100px;
+  margin-top: 40px;
+  position: relative;
+  padding: 20px;
+}
+
+.main-container-section {
+  margin-bottom: 20px;
+}
+
+.secondary-container-row {
+  margin-top: 65px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.video-of-week-container {
+  width: 42%;
+  max-width: 560px;
+  background-color: rgb(238, 238, 238);
+  min-height: 400px;
+  padding: 20px 20px 0px 20px;
+  margin-right: 60px;
+  position: relative;
+}
+
+.video-of-week {
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 80%;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+
+.advice-container {
+  min-width: 560px;
+  min-height: 400px;
+  padding: 20px 20px 0px 20px;;
+  margin-left: 60px
+}
