@@ -1,9 +1,17 @@
+.main-container,
+.video-of-week-container,
+.advice-container {
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 2px;
+  Background-color: rgb(238, 238, 238);
+}
+
 .main-container {
   height: auto;
   width: 70%;
   max-width: 1100px;
   margin-top: 40px;
-  background-color: rgb(238, 238, 238);
   position: relative;
   padding: 20px;
 }
@@ -43,16 +51,7 @@
 
 .advice-container {
   min-width: 560px;
-  background-color: rgb(238, 238, 238);
   min-height: 400px;
   padding: 20px 20px 0px 20px;;
   margin-left: 60px
-}
-
-.main-container,
-.video-of-week-container,
-.advice-container {
-  border-style: solid;
-  border-radius: 20px;
-  border-width: 2px;
 }
