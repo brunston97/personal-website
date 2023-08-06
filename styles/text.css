@@ -20,9 +20,13 @@ p {
   text-align: left;
 }
 
+.advice-container h1 {
+  white-space: nowrap;
+}
+
 .advice-container p {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 23%;
   font-size: 20px;
 }
 
@@ -37,4 +41,16 @@ p {
   color: rgb(197,197,197);
   margin-left: 15px;
   font-size: 14px;
+}
+
+@media(max-width: 500px) {
+  .advice-container p {
+    margin-top: 20%;
+  }
+
+  .video-of-week-container h1,
+  .advice-container h1 {
+    font-size: 6vw;
+    white-space: nowrap;
+  }
 }
