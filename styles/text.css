@@ -1,14 +1,14 @@
 h1 {
   text-align: center;
-  font-family: Exo, Arial;
-  margin-bottom: 30px;
+  font-family: Sora, Arial;
+  margin-bottom: 1.5rem;
 }
 
 h1,
 h2,
 h3,
 p {
-  font-family: Exo, Arial;
+  font-family: Sora, Arial;
 }
 
 .main-container h2 {
@@ -25,9 +25,7 @@ p {
 }
 
 .advice-container p {
-  text-align: center;
-  margin-top: 23%;
-  font-size: 20px;
+  text-align: left;
 }
 
 .test-page-text h3 {
@@ -44,10 +42,6 @@ p {
 }
 
 @media(max-width: 500px) {
-  .advice-container p {
-    margin-top: 20%;
-  }
-
   .video-of-week-container h1,
   .advice-container h1 {
     font-size: 6vw;
