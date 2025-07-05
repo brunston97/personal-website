@@ -5,6 +5,14 @@
   border-radius: 20px;
   border-width: 2px;
   background-color: rgb(238, 238, 238);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-container:hover,
+.advice-container:hover,
+.video-of-week-container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
 }
 
 .main-container {
