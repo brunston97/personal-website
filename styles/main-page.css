@@ -57,6 +57,10 @@
   margin-left: 3%;
 }
 
+ul li p {
+  margin-bottom: 0.8rem;
+}
+
 @media(max-width: 950px) {
   .video-of-week-container,
   .advice-container {
