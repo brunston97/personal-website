@@ -76,14 +76,13 @@
 }
 
 @media(max-width: 950px) {
-
   .main-container {
-    width: 85%;
+    width: 80%;
   }
 
   .license-to-plate-container,
   .setlist-wizard-container {
-    width: 75%;
+    width: 78%;
     max-width: 630px;
     height: 300px;
     padding: 10px;
