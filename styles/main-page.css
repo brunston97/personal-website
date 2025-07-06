@@ -66,11 +66,12 @@
   z-index: 1;
 }
 
-ul li p {
-  margin-bottom: 0.8rem;
-}
-
 @media(max-width: 950px) {
+
+  .main-container {
+    width: 85%;
+  }
+
   .license-to-plate-container,
   .setlist-wizard-container {
     width: 75%;
