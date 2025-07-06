@@ -1,6 +1,9 @@
 h1 {
   text-align: center;
   font-family: Sora, Arial;
+}
+
+.main-container h1 {
   margin-bottom: 1.5rem;
 }
 
@@ -29,21 +32,14 @@ p {
   text-align: left;
 }
 
-.test-page-text h3 {
-  color: rgb(197, 197, 197);
-  margin-top: 20px;
-  margin-left: 15px;
-}
-
-.test-page-text p {
-  margin-top: 10px;
-  color: rgb(197,197,197);
-  margin-left: 15px;
-  font-size: 14px;
-}
-
 ul li p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+@media(max-width: 700px) {
+  p {
+    font-size: 15px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -51,5 +47,17 @@ ul li p {
   .setlist-wizard-container h1 {
     font-size: 6vw;
     white-space: nowrap;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  ul li p {
+    margin-bottom: 0.3rem;
+  }
+
+  ul {
+    padding-left: 15px;
   }
 }
