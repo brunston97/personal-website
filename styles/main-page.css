@@ -40,7 +40,6 @@
 .video-of-week-container {
   padding: 20px 20px 0px 20px;
   margin-right: 3%;
-  position: relative;
 }
 
 .video-of-week-container,
@@ -48,6 +47,7 @@
   width: 40%;
   max-width: 560px;
   aspect-ratio: 151 / 106;
+  position: relative;
 }
 
 .video-of-week {
@@ -63,6 +63,18 @@
 .advice-container {
   padding: 20px 20px 0px 20px;;
   margin-left: 3%;
+}
+
+.external-link {
+  position: absolute;
+  top: 1rem;
+  right: 16px;
+}
+
+.box-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
 }
 
 ul li p {
