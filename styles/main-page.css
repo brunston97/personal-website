@@ -1,6 +1,6 @@
 .main-container,
-.video-of-week-container,
-.advice-container {
+.license-to-plate-container,
+.setlist-wizard-container {
   border-style: solid;
   border-radius: 20px;
   border-width: 2px;
@@ -9,8 +9,8 @@
 }
 
 .main-container:hover,
-.advice-container:hover,
-.video-of-week-container:hover {
+.license-to-plate-container:hover,
+.setlist-wizard-container:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
 }
@@ -37,35 +37,24 @@
   flex-wrap: wrap;
 }
 
-.video-of-week-container {
-  padding: 20px 20px 0px 20px;
+.license-to-plate-container {
   margin-right: 3%;
 }
 
-.video-of-week-container,
-.advice-container {
+.setlist-wizard-container {
+  margin-left: 3%;
+}
+
+.license-to-plate-container,
+.setlist-wizard-container {
   width: 40%;
+  padding: 20px 20px 0px 20px;
   max-width: 560px;
   aspect-ratio: 151 / 106;
   position: relative;
 }
 
-.video-of-week {
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
-  max-width: 600px;
-  width: 80%;
-  position: absolute;
-  top: 22%;
-  left: 10%;
-}
-
-.advice-container {
-  padding: 20px 20px 0px 20px;;
-  margin-left: 3%;
-}
-
-.external-link {
+.external-link-icon {
   position: absolute;
   top: 1rem;
   right: 16px;
@@ -82,8 +71,8 @@ ul li p {
 }
 
 @media(max-width: 950px) {
-  .video-of-week-container,
-  .advice-container {
+  .license-to-plate-container,
+  .setlist-wizard-container {
     width: 75%;
     max-width: 630px;
     margin-bottom: 30px;
@@ -101,9 +90,5 @@ ul li p {
 
   .main-container {
     margin-top: 40px;
-  }
-
-  .video-of-week {
-    margin-top: 7px;
   }
 }

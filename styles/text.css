@@ -21,11 +21,11 @@ p {
   text-align: left;
 }
 
-.advice-container h1 {
+.setlist-wizard-container h1 {
   white-space: nowrap;
 }
 
-.advice-container p {
+.setlist-wizard-container p {
   text-align: left;
 }
 
@@ -43,8 +43,8 @@ p {
 }
 
 @media(max-width: 500px) {
-  .video-of-week-container h1,
-  .advice-container h1 {
+  .license-to-plate-container h1,
+  .setlist-wizard-container h1 {
     font-size: 6vw;
     white-space: nowrap;
   }
