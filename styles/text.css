@@ -3,6 +3,10 @@ h1 {
   font-family: Sora, Arial;
 }
 
+p {
+  font-size: 18px;
+}
+
 .main-container h1 {
   margin-bottom: 1.5rem;
 }
