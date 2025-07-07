@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite --open",
     "build": "vite build",
+    "buildFullSite": "node build-full-site.js",
     "preview": "vite preview"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "description": "",
   "devDependencies": {
     "vite": "^7.0.2"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
   }
 }
