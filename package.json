@@ -8,6 +8,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "buildFullSite": "node build-full-site.js",
+    "buildFullSiteAndDeploy": "npm run buildFullSite && firebase deploy",
     "preview": "vite preview"
   },
   "repository": {

@@ -8,7 +8,11 @@ p {
 }
 
 .main-container h1 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-container h3 {
+  color: rgb(44, 83, 100);
 }
 
 h1,
