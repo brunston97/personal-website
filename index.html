@@ -3,19 +3,92 @@
 <html>
 
   <head>
-    <title>Nick's Site</title>
+    <title>Nick Brunston</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="styles/main-page.css">
-    <link rel="stylesheet" href="styles/text.css">
-    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="./styles/main-page.css">
+    <link rel="stylesheet" href="./styles/text.css">
+    <link rel="stylesheet" href="./styles/general.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
 
   <body>
+    <div class="main-container">
+      <h1>Nick Brunston</h1>
+      <div class="link-row">
+        <a href="https://linkedin.com/in/nicholas-brunston-210655186" target="_blank" aria-label="Visit LinkedIn"><h3>LinkedIn</h3></a>
+        <a href="https://github.com/brunston97" target="_blank" aria-label="Visit GitHub"><h3>GitHub</h3></a>
+        <a href="Nicholas_Brunston_Resume.pdf" target="_blank" aria-label="Open Resume"><h3>Resume</h3></a>
+      </div>
+      <div class="main-container-section">
+        <h2>Overview</h2>
+        <p>I am a software developer with over 5 years of experience building scalable full-stack web applications and microservices, primarily using C#, 
+           Angular, and SQL-based databases (MS SQL and Oracle). 
+        </p>
+        <br>
+        <p>
+           My strengths lie in designing clean, efficient APIs and backend services - but I'm always eager to explore new technologies and collaborate across the stack. 
+           I am passionate about developing efficient and maintainable software, and engaging in a collaborative development environment
+        </p>
+      </div>
+      <div class="main-container-section">
+        <h2>Employment</h2>
+        <p>
+          Since October 2019 I've worked at AllianceBernstein, where I have helped build and maintain fintech 
+          web applications used by portfolio managers and traders to manage bond purchases and sales for over 20,000 private clients.
+        </p>
+        <br>
+        <p>
+           While with AllianceBernstein I have contributed to the development of a suite of enterprise web applications, replacing third-party trading software and significantly reducing software licensing expenses for the firm.
+           My work has spanned both front-end and back-end development, with a focus on building scalable APIs, optimizing data flows, and ensuring system reliability across complex systems used in active trading.
+        </p>
+      </div>
+      <div class="main-container-section">
+        <h2>Skills</h2>
+        <p>C#, React, Angular, SQL, GraphQL, Azure DevOps, Git, Docker, Web Development, CI/CD pipelines</p>
+      </div>
+      <div class="main-container-section">
+        <h2>Personal Projects</h2>
+        <p>My personal projects are listed below - please give them a look!</p>
+      </div>
+    </div>
+
+    <div class="secondary-container-row">
+      <div class="license-to-plate-container">
+        <a href="https://www.platezoneplateoff.com" class="box-link" target="_blank" aria-label="Visit site"></a>
+        <i class="external-link-icon fas fa-arrow-up-right-from-square"></i>
+        <img src="/beepbeep.png" class="inline-favicon"/>
+        <h1>License to Plate</h1>
+        <div class="secondary-container-ul">
+          <ul>
+            <li><p>A website that allows users to vote on pairs of custom license plates, and keeps track of votes to determine which license plate is the best</p></li>
+            <li><p>Frontend: Built with React, TailwindCSS, and NextUI</p></li>
+            <li><p>Backend: A lightweight Node.js server deployed as a Google Cloud Function, in conjunction with FireBase DB to keep track of votes</p></li>
+            <li><p>Implements separate desktop and mobile layouts, and voting animations</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="setlist-wizard-container">
+        <a href="https://www.nickbrunston.com/setlistWizard" class="box-link" target="_blank" aria-label="Visit site"></a>
+        <i class="external-link-icon fas fa-arrow-up-right-from-square"></i>
+        <img src="/setlistWizard.png" class="inline-favicon"/>
+        <h1>Setlist Wizard</h1>
+        <div class="secondary-container-ul">
+          <ul>
+            <li><p>A website that tracks which songs the user has seen performed by a given band</p></li>
+            <li><p>Frontend: Built with React, Tailwind CSS, and NextUI</p></li>
+            <li><p>Backend: A Node.js/Express server deployed via Google Cloud Functions fetches setlist data from the setlist.fm API</p></li>
+            <li><p>Implements rate limiting and state persistence between sessions</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 
 </html>

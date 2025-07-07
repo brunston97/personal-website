@@ -1,11 +1,17 @@
 .main-container,
-.video-of-week-container,
-.advice-container {
+.license-to-plate-container,
+.setlist-wizard-container {
   border-style: solid;
   border-radius: 20px;
   border-width: 2px;
   background-color: rgb(238, 238, 238);
-  box-shadow: -9px 6px 1px rgba(0, 59, 0, 0.818);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.license-to-plate-container:hover,
+.setlist-wizard-container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
 }
 
 .main-container {
@@ -21,6 +27,17 @@
   margin-bottom: 20px;
 }
 
+.link-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.main-container a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .secondary-container-row {
   margin-top: 65px;
   margin-bottom: 40px;
@@ -30,43 +47,70 @@
   flex-wrap: wrap;
 }
 
-.video-of-week-container {
-  padding: 20px 20px 0px 20px;
+.license-to-plate-container {
   margin-right: 3%;
-  position: relative;
 }
 
-.video-of-week-container,
-.advice-container {
-  width: 40%;
-  max-width: 560px;
-  aspect-ratio: 151 / 106;
-}
-
-.video-of-week {
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
-  max-width: 600px;
-  width: 80%;
-  position: absolute;
-  top: 22%;
-  left: 10%;
-}
-
-.advice-container {
-  padding: 20px 20px 0px 20px;;
+.setlist-wizard-container {
   margin-left: 3%;
 }
 
+.license-to-plate-container,
+.setlist-wizard-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 375px;
+  padding: 1rem;
+  max-width: 560px;
+  position: relative;
+}
+
+.external-link-icon {
+  position: absolute;
+  top: 1rem;
+  right: 16px;
+}
+
+.box-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+ul {
+  padding-left: 28px;
+}
+
+.secondary-container-ul {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inline-favicon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
 @media(max-width: 950px) {
-  .video-of-week-container,
-  .advice-container {
-    width: 75%;
+  .main-container {
+    width: 80%;
+  }
+
+  .license-to-plate-container,
+  .setlist-wizard-container {
+    width: 78%;
     max-width: 630px;
+    height: 320px;
+    padding: 10px;
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
-    padding: 20px;
   }
 
   .secondary-container-row {
@@ -79,8 +123,13 @@
   .main-container {
     margin-top: 40px;
   }
+}
 
-  .video-of-week {
-    margin-top: 7px;
+@media(max-width: 490px) {
+  .inline-favicon {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0.7rem;
   }
 }
