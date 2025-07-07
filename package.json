@@ -1,0 +1,32 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "build": "vite build",
+    "buildFullSite": "node build-full-site.js",
+    "buildFullSiteAndDeploy": "npm run buildFullSite && firebase deploy",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunston97/personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunston97/personal-website/issues"
+  },
+  "homepage": "https://github.com/brunston97/personal-website#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^7.0.2"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  }
+}
